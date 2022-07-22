@@ -28,6 +28,11 @@ body{
   font-size: 290%;
   
 }
+.App h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90%;
+  margin-bottom: 2%;
+}
 .container{
   /* background-color: #d81e5b; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -96,4 +101,29 @@ button:hover{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.7) 0px 1px 3px -1px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
+}
+.socialLinks{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  margin-top: 2%;
+}
+.socialLinks h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 190%;
+}
+.socialLinks ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.socialLinks ul li{
+  list-style: none;
+}
+.socialLinks ul li a{
+  text-decoration: none;
+}
+.socialLinks ul li a ion-icon{
+  width: 30px;
+  height: 30px;
 }

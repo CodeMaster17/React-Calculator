@@ -52,6 +52,7 @@ function App() {
   return (
     <div className="App">
       <h1>Calcualtor</h1>
+      <h5>-- A React App created from scratch --</h5>
       <div className="container">
         <div className="calculator">
           <div className="display">
@@ -73,6 +74,15 @@ function App() {
           <button onClick={() => updateCalc('.')}>.</button>
           <button onClick={calculate}>=</button>
         </div>
+      </div>
+      <div className="socialLinks">
+        <h2>Contact Developer</h2>
+        <ul>
+          <li><a target="_blank" href="https://www.instagram.com/harshit._._.yadav/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100073748185719" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li><a target="_blank" href="https://twitter.com/home?lang=en"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
       </div>
     </div>
   );
