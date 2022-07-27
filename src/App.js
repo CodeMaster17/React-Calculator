@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Calcualtor</h1>
+      <h1>Calcualator</h1>
       <h5>-- A React App created from scratch --</h5>
       <div className="container">
         <div className="calculator">
@@ -63,7 +63,7 @@ function App() {
         <div className="operators">
           <button onClick={() => updateCalc('+')}>+</button>
           <button onClick={() => updateCalc('-')}>-</button>
-          <button onClick={() => updateCalc('<ion-icon name="close-outline"></ion-icon>')}><ion-icon name="close-outline"></ion-icon></button>
+          <button onClick={() => updateCalc('*')}><ion-icon name="close-outline"></ion-icon></button>
           <button onClick={() => updateCalc('/')}>/</button>
 
           <button onClick={deleteLast}>DEL</button>
