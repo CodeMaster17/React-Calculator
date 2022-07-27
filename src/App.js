@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Calcualator</h1>
+      <h1>Calculator</h1>
       <h5>-- A React App created from scratch --</h5>
       <div className="container">
         <div className="calculator">
